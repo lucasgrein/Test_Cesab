@@ -52,7 +52,7 @@ usethis::use_r("download_wwf")
 usethis::use_package(package = "here")
 usethis::use_package(package = "utils")
 
-# /!\ 10. Loading the whole project /!\
+# 10. Loading the whole project
 
 devtools::install_deps(upgrade = "never")
 devtools::load_all()
@@ -60,3 +60,8 @@ devtools::load_all()
 # 11. Create make.R
 
 utils::file.edit(here::here("make.R"))
+
+# 12. Create Test for commit
+
+utils::file.edit(here::here("Essai_pour_git.md"))
+utils::file.edit(here::here("Essai_pour_git_2.md"))
