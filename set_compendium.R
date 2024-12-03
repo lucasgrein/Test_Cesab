@@ -67,3 +67,5 @@ utils::file.edit(here::here("Essai_pour_git.md"))
 utils::file.edit(here::here("Essai_pour_git_2.md"))
 utils::file.edit(here::here("Essai_pour_git_3.md"))
 utils::file.edit(here::here("Essai_pour_git_4.md"))
+
+#Redaction texte pour commit 1 
