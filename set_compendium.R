@@ -79,3 +79,5 @@ utils::file.edit(here::here("Essai_develop_3.md"))
 utils::file.edit(here::here("Essai_develop2_1.md"))
 utils::file.edit(here::here("Essai_develop2_2.md"))
 utils::file.edit(here::here("Essai_develop2_3.md"))
+
+utils::file.edit(here::here("Nouveau_develop2.md"))
