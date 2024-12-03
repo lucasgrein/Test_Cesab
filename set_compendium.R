@@ -64,20 +64,3 @@ utils::file.edit(here::here("make.R"))
 # 12. Create Test for commit
 
 utils::file.edit(here::here("Essai_pour_git.md"))
-utils::file.edit(here::here("Essai_pour_git_2.md"))
-utils::file.edit(here::here("Essai_pour_git_3.md"))
-utils::file.edit(here::here("Essai_pour_git_4.md"))
-
-utils::file.edit(here::here("Essai_pour_git_20.md"))
-
-utils::file.edit(here::here("Essai_pour_git_21.md"))
-
-utils::file.edit(here::here("Essai_develop_1.md"))
-utils::file.edit(here::here("Essai_develop_2.md"))
-utils::file.edit(here::here("Essai_develop_3.md"))
-
-utils::file.edit(here::here("Essai_develop2_1.md"))
-utils::file.edit(here::here("Essai_develop2_2.md"))
-utils::file.edit(here::here("Essai_develop2_3.md"))
-
-utils::file.edit(here::here("Nouveau_develop2.md"))
