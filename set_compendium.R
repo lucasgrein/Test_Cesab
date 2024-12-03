@@ -67,5 +67,5 @@ utils::file.edit(here::here("Essai_pour_git.md"))
 
 # 13. Create Test for commit
 
-utils::file.edit(here::here("push_Lucas_666.md"))
+utils::file.edit(here::here("push_LuluGreiner_666.md"))
 
