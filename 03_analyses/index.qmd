@@ -1,0 +1,33 @@
+---
+title: "Ecoregions"
+format: html
+---
+
+```{r}
+#| echo: false 
+#| message: false
+
+library(ggplot2)
+devtools::load_all()
+
+```
+
+## Barplot Ours vs Ecoregions
+
+Voici le nombre d'ecoregions par espece d'ours :
+
+```{r}
+#| echo: false 
+#| message: false
+
+read_wwf()
+mammals <- select_family(mammals, "Ursidae")
+tab_all <- join_all_tables(tab1=mammals, tab2=ecospec)
+tab_all_g <- count_ecoregions(tab_all)
+plot_ecor <- graph_ecoregions(tab_all_g)
+
+knitr::kable(tab_all_g)
+
+plot_ecor
+
+```
