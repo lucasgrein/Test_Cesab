@@ -1,0 +1,10 @@
+name|type|parent|branches|progress
+list_wwf|stem|list_wwf|0|skipped
+ecospec|stem|ecospec|0|skipped
+mammals|stem|mammals|0|skipped
+selected_family|stem|selected_family|0|skipped
+jointed_tab|stem|jointed_tab|0|skipped
+counted_ecoregions|stem|counted_ecoregions|0|skipped
+plotted_ecoregions|stem|plotted_ecoregions|0|skipped
+report|stem|report|0|dispatched
+report|stem|report|0|completed

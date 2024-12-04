@@ -1,0 +1,16 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|8b6e886688d57272|||||||||||||||
+count_ecoregions|function|f801fb8e55ac87f9|||||||||||||||
+count_nona|function|48c170570a35114a|||||||||||||||
+counted_ecoregions|stem|ba6a3d9c84fdd73f|6cfe7f2cc4cf1c9a|e3444bff073fee17|-1773768736||t20061.6619093777s|fabb80dff42d75cb|307|rds|local|vector|||0.08||
+ecospec|stem|5e5e51d7d87b29af|cbbabe9342faebcb|4a06fc96c21786db|139079371||t20061.6619074488s|e44be74ff0be8d5b|732183|rds|local|vector|||0||
+graph_ecoregions|function|0ee9953dd64cdfee|||||||||||||||
+join_all_tables|function|e13230f4456504f3|||||||||||||||
+jointed_tab|stem|78fbef6d3f0f3814|0c1b394f3af22cf6|ea2762d318cb3e12|1384332048||t20061.6619084156s|ede885a811dd8bba|1798|rds|local|vector|||0.02||
+list_wwf|stem|87f3157486b99c7b|9c2b559e8edef6d7|b43725a5a8f0d11e|316837413||t20061.6619047137s|92034e0fab954a91|851506|rds|local|vector|||1.03||
+mammals|stem|e7f30d9bd051b0c6|368a0966abedd9db|4a06fc96c21786db|111125651||t20061.6619078532s|c36fafd7bc39689c|117706|rds|local|vector|||0||
+plotted_ecoregions|stem|9b284ae754153193|7b75b5f015eedc51|086e0973eadf2b97|-1955662484||t20061.6650333639s|a034f66e58486c24|86690|rds|local|vector|||0.01||
+read_wwf|function|db55d0ee03ac6d4d|||||||||||||||
+report|stem||46ad170970868f26|3aafe52230e27727|787668912||t20061.6726865625s||0|file|local|vector|||4.11||Error running quarto cli.ℹ Rerun with quiet  FALSE to see the full error message.Caused by error System command quarto.exe failed
+select_family|function|26723ca7a3ee8fde|||||||||||||||
+selected_family|stem|037e4be744582721|67b79c3b81c2225f|8d4273adf143bde5|-237799426||t20061.661908027s|d55ff9e05aca5a89|448|rds|local|vector|||0||

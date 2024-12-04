@@ -1,0 +1,32 @@
+---
+title: "Ecoregions"
+format: html
+---
+
+```{r}
+#| echo: false 
+#| message: false
+
+targets::tar_config_set(
+  store="05_outputs",
+  script= "_targets.R"
+)
+
+
+```
+
+## Barplot Ours vs Ecoregions
+
+Voici le nombre d'ecoregions par espece d'ours :
+
+```{r}
+#| echo: false 
+#| message: false
+
+# targets::tar_load("counted_ecoregions")
+knitr::kable(targets::tar_read("counted_ecoregions"))
+
+targets::tar_load("plotted_ecoregions")
+plotted_ecoregions
+
+```
